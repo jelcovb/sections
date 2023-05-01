@@ -48,8 +48,8 @@ body {
     color: white;
 }
 
-.bouncy_overlay-info {
-    position: absolute;
+.modal {
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -61,35 +61,7 @@ body {
     z-index: 10;
 }
 
-.carousel-slider {
-    /* position: absolute; */
-}
-
-.bouncy-product-info {
-    position: absolute;
-}
-
-.carousel-collection {
-    position: absolute;
-    top: 0.5rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(250, 250, 250, 0.6);
-    backdrop-filter: blur(3px);
-    z-index: 5;
-}
-
-.close-overlay {
+.close-modal {
     position: absolute;
     top: 0.2rem;
     right: 1.5rem;
@@ -98,6 +70,10 @@ body {
     cursor: pointer;
     border: none;
     background: none;
+}
+
+.carousel-container {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
 .prev {
@@ -122,6 +98,17 @@ body {
     border: none;
     background: none;
     font-size: 4rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
 }
 
 .hidden {
