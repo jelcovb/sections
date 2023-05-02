@@ -1,6 +1,6 @@
 const mainImage = document.querySelector('.bouncy-image');
 const overlayBox = document.querySelector('.modal');
-const btnCloseOverlay = document.querySelector('.close-modals');
+const btnCloseOverlay = document.querySelector('.close-modal');
 const overlay = document.querySelector('.overlay');
 const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
